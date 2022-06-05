@@ -4,73 +4,137 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <title>Resume-New</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
-    <!===========header============>
-    <header>
-      <h1>ilya ostryansky</h1>
-      <p>GRAPHICS & WEB DESIGNER</p>
-    </header>
-    <!===========profile============>
-    <section>
-      <h2>profile</h2>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id deleniti
-        aliquid sint, voluptate commodi dolor et officia quo maiores eligendi,
-        deserunt, enim sapiente quibusdam veniam. Amet dignissimos earum qui
-        accusantium!
-      </p>
-    </section>
-    <!=========experience==========>
-    <section>
+    <div class="main">
+    <Section class="right">
+      <!===========header============>
+      <header class="header">
+        <h1 class="header-title">ilya <span class="header-surname">ostryansky</span></h1>
+        <p class="header-subtitle">GRAPHICS & WEB DESIGNER</p>
+      </header>
+      <!===========profile============>
+      <div>
+        <h2>profile</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id deleniti
+          aliquid sint, voluptate commodi dolor et officia quo maiores eligendi,
+          deserunt, enim sapiente quibusdam veniam. Amet dignissimos earum qui
+          accusantium!
+        </p>
+      </div>
+      <!=========experience==========>
+      <div>
         <h2 class="experience-title">experience</h2>
         <ul>
-            <li>
-                <h3 class="experience-header">JOB POSITION / TITLE HERE</h3> 
-                <p class="experience-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, doloribus?</p>
-            </li>
-            <li>
-                <h3 class="experience-header">JOB POSITION / TITLE HERE</h3> 
-                <p class="experience-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, doloribus?</p>
-            </li>
-            <li>
-                <h3 class="experience-header">JOB POSITION / TITLE HERE</h3> 
-                <p class="experience-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, doloribus?</p>
-            </li>
+          <li>
+            <h3 class="experience-header">JOB POSITION / TITLE HERE</h3>
+            <p class="experience-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Dignissimos, doloribus?
+            </p>
+          </li>
+          <li>
+            <h3 class="experience-header">JOB POSITION / TITLE HERE</h3>
+            <p class="experience-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Dignissimos, doloribus?
+            </p>
+          </li>
+          <li>
+            <h3 class="experience-header">JOB POSITION / TITLE HERE</h3>
+            <p class="experience-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Dignissimos, doloribus?
+            </p>
+          </li>
         </ul>
-    </section>
-    <!==========education==========>
-    <section>
-        <h2 class="experience-title">education</h2>
+      </div>
+      <!==========education==========>
+      <div>
+        <h2 class="education-title">education</h2>
         <ul>
-            <li>
-                <h4 class="experience-header">Lorem ipsum dolor sit amet consectetur</h4> 
-                <p class="experience-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, doloribus?</p>
-            </li>
-            <li>
-                <h4 class="experience-header">Lorem ipsum dolor sit amet consectetur</h4> 
-                <p class="experience-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, doloribus?</p>
-            </li>
-            <li>
-                <h4 class="experience-header">Lorem ipsum dolor sit amet consectetur</h4> 
-                <p class="experience-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, doloribus?</p>
-            </li>
+          <li>
+            <h4 class="education-header">
+              Lorem ipsum dolor sit amet consectetur
+            </h4>
+            <p class="education-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Dignissimos, doloribus?
+            </p>
+          </li>
+          <li>
+            <h4 class="education-header">
+              Lorem ipsum dolor sit amet consectetur
+            </h4>
+            <p class="education-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Dignissimos, doloribus?
+            </p>
+          </li>
+          <li>
+            <h4 class="education-header">
+              Lorem ipsum dolor sit amet consectetur
+            </h4>
+            <p class="education-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Dignissimos, doloribus?
+            </p>
+          </li>
         </ul>
+      </div>
+      <!===========hobbies===========>
+      <div>
+        <div></div>
+      </div>
     </section>
-    <!===========hobbies===========>
-    <section>
+      <!==========contacts===========>
+      <section class="left">
         <div>
-            
+         <h2>contacts</h2>
+         <ul>
+           <li>123 Street Name, City Name,</li>
+           <li>Country Name</li>
+           <li>Phone : +000 0000 000</li>
+           <li>Mail : example@mail.com</li>
+           <li>Web : www.example.com</li>
+         </ul>
         </div>
-    </section>
-    <!==========contacts===========>
-    <section></section>
-    <!=========languages===========>
-    <section></section>
-    <!===========skills============>
-    <section></section>
-    <!===========footer============>
+        <!=========languages===========>
+        <div>
+          <h2>languages</h2>
+          <ul>
+            <li>English</li>
+            <li>Ukranian</li>
+            <li>Russian</li>
+          </ul>
+        </div>
+        <!===========skills============>
+        <div>
+         <h2>skills</h2>
+         <ul>
+           <li>Creativity</li>
+           <li>Teamwork</li>
+           <li>Management</li>
+           <li>Leader</li>
+           <li>Communication</li>
+           <li>Management</li>
+         </ul>
+        </div>
+        <!===========footer============>
+      </section>
+    </div>
   </body>
 </html>

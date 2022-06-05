@@ -1,0 +1,192 @@
+:root {
+    --accent-font: "Open+Sans", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+    --accent-font-weight: 400;
+    --second-font-weight: 600;
+    --third-font-weight: 700;
+    --accent-font-color: #303030;
+    --second-font-color: #555555;
+    --third-font-color: #FF6C00;
+    --fourth-font-color: #9DA4BD;
+    --accent-color-white: #ffffff;
+    --accent-font-size: 11px;
+    --secondary-font-size: 14px;
+    --third-font-size: 18px;
+    --fourth-font-size: 42px;
+    --accent-line-height: 1.14;
+    --typical-margin: 20px;
+/* <!========style-reset=========> */
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+ul,
+  ol,
+  li {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+  }
+  button {
+    cursor: pointer;
+    margin-left: 40px;
+  min-width: 160px;
+  height: 40px;
+  border: 1px solid var(--third-font-color);
+  background-color: transparent;
+  border-radius: 25px;
+  }
+  .container {
+width: 1200px;
+margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;
+outline: 1px solid #FF6C00;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p {
+    margin: 0;
+  }
+  .link {
+    text-decoration: none; 
+     }
+  :link {
+      text-decoration: none; 
+       }
+  .list {
+    list-style: none;
+  }
+  img {
+    display: block;
+  }
+/* <!===========main============> */
+
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+width: 1200px;
+margin: 0 auto;
+}
+/* <!===========header============> */
+.header {
+    display: block;
+    width: 900px;
+        padding-left: 147px;
+}
+.header-surname {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.859px;
+    line-height: 24px;
+    color: #1B8FA9;
+}
+.header-title {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 19.859px;
+line-height: 24px;
+color: #282F39;
+}
+.header-subtitle {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 7.1287px;
+line-height: 9px;
+color: #000000;
+}
+/* <!==========profile============> */
+.experience-title {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 8.6479px;
+line-height: 10px;
+color: #1B8FA9;
+}
+.experience-header {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 5.7653px;
+line-height: 7px;
+color: #000000;
+}
+.experience-text {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 5.0446px;
+line-height: 6px;
+color: #000000;
+}
+/* <!=========experience==========> */
+.experience-title {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 19.859px;
+line-height: 24px;
+color: #282F39;
+}
+.experience-header {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5.7653px;
+    line-height: 7px;
+    color: #000000;
+}
+.experience-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5.0446px;
+    line-height: 6px;
+    color: #000000;
+}
+/* <!==========education==========> */
+.education-title {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 19.859px;
+line-height: 24px;
+color: #282F39;
+}
+.education-header {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5.7653px;
+    line-height: 7px;
+    color: #000000;
+}
+.education-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5.0446px;
+    line-height: 6px;
+    color: #000000;
+}
+/* <!===========hobbies===========> */
+
+/* <!==========contacts===========> */
+
+/* <!==========languages==========> */
+
+/* <!===========skills============> */
+
+/* <!===========footer============> */
