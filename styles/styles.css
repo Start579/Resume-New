@@ -73,114 +73,149 @@ outline: 1px solid #FF6C00;
 .main {
     display: flex;
     flex-direction: row-reverse;
-width: 1200px;
+width: 1217px;
 margin: 0 auto;
+padding-left: 73px;
 }
 /* <!===========header============> */
 .header {
     display: block;
     width: 900px;
-        padding-left: 147px;
+    padding-left: 147px;
+}
+.name {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 63.4355px;
+line-height: 77px;
+color: #282F39;
+text-transform: uppercase;
 }
 .header-surname {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 19.859px;
-    line-height: 24px;
-    color: #1B8FA9;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 63.4355px;
+  line-height: 77px;
+  color: #1B8FA9;
+  text-transform: uppercase;
 }
 .header-title {
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 19.859px;
-line-height: 24px;
-color: #282F39;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 63.4355px;
+  line-height: 77px;
+  color: #282F39;
 }
 .header-subtitle {
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 7.1287px;
-line-height: 9px;
-color: #000000;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22.7712px;
+  line-height: 28px;
+  color: #000000;
+  padding-bottom: 100px;
+}
+/* <!==========right-side============> */
+.profile-section {
+  padding-left: 108px;
+}
+.experience-section {
+  padding-top: 55px;
+  padding-left: 108px;
+}
+.education-section {
+  padding-top: 47px;
+  padding-left: 108px;
+}
+.hobbies-section {
+  padding-top: 61px;
+  padding-left: 108px;
 }
 /* <!==========profile============> */
-.experience-title {
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 8.6479px;
-line-height: 10px;
-color: #1B8FA9;
+.profile-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.1139px;
+  line-height: 20px;
+  color: #000000;
+  padding-top: 48px;
 }
+/* <!==========experience============> */
 .experience-header {
-    font-family: 'Lato';
+  font-family: 'Lato';
 font-style: normal;
 font-weight: 700;
-font-size: 5.7653px;
-line-height: 7px;
+font-size: 18.4161px;
+line-height: 22px;
 color: #000000;
+padding-top: 53px;
 }
 .experience-text {
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 5.0446px;
-line-height: 6px;
-color: #000000;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.1139px;
+  line-height: 20px;
+  color: #000000;
+  padding-top: 5px;
 }
-/* <!=========experience==========> */
-.experience-title {
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 19.859px;
-line-height: 24px;
-color: #282F39;
-}
-.experience-header {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 5.7653px;
-    line-height: 7px;
-    color: #000000;
-}
-.experience-text {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 5.0446px;
-    line-height: 6px;
-    color: #000000;
-}
-/* <!==========education==========> */
-.education-title {
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 19.859px;
-line-height: 24px;
-color: #282F39;
-}
+/* <!==========education============> */
 .education-header {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 5.7653px;
-    line-height: 7px;
-    color: #000000;
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 18.4161px;
+line-height: 22px;
+color: #000000;
+padding-top: 53px;
 }
 .education-text {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 5.0446px;
-    line-height: 6px;
-    color: #000000;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.1139px;
+  line-height: 20px;
+  color: #000000;
+  padding-top: 5px;
 }
+.education-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.1139px;
+  line-height: 20px;
+  color: #000000;
+}
+.title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27.6239px;
+  line-height: 33px;
+  color: #1B8FA9;
+  text-transform: uppercase;
+  /* border: 1px solid #000000; */
+}
+.title::before {
+  content: "";
+  width: 60px;
+  height: 1px;
+  background-color: #1B8FA9;
+  margin-right: 21px;
+}
+.header {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 18.4161px;
+line-height: 22px;
+color: #000000;
+}
+
 /* <!===========hobbies===========> */
 
 /* <!==========contacts===========> */
