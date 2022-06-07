@@ -76,8 +76,31 @@ outline: 1px solid #FF6C00;
 width: 1217px;
 margin: 0 auto;
 padding-left: 73px;
+padding-top: 100px;
+}
+.body {
+  position: absolute;
+  content: "";
+  background-image: linear-gradient(
+    to bottom right,
+  #282F39 50%,
+  #1B8FA9 50% 
+);
+background-repeat: no-repeat;
+position: relative;
+/* background-size: cover; */
 }
 /* <!===========header============> */
+.right {
+  /* position: absolute;
+  content: ""; */
+  background-color: #ffffff;
+}
+.left {
+  /* position: absolute;
+  content: ""; */
+  background-color: #ffffff;
+}
 .header {
     display: block;
     width: 900px;
@@ -91,6 +114,7 @@ font-size: 63.4355px;
 line-height: 77px;
 color: #282F39;
 text-transform: uppercase;
+padding-top: 93px;
 }
 .header-surname {
   font-family: 'Inter';
@@ -198,11 +222,10 @@ padding-top: 53px;
   line-height: 33px;
   color: #1B8FA9;
   text-transform: uppercase;
-  /* border: 1px solid #000000; */
 }
 .title::before {
   content: "";
-  width: 60px;
+  width: 200px;
   height: 1px;
   background-color: #1B8FA9;
   margin-right: 21px;
@@ -219,9 +242,82 @@ color: #000000;
 /* <!===========hobbies===========> */
 
 /* <!==========contacts===========> */
+.photo {
+  position: absolute;
+  content: "";
+background-image: url(../images/ilya1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+  width: 406px;
+  margin: 0 auto;
+background-position: left;
+/* width: 406px;*/
+height: 500px;   
+top: 0;
+border-radius: 50%;
+}
+.left {
+  position: relative;
+}
+.left-title {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 27.6239px;
+line-height: 33px;
+color: #FF6C00;
+padding-top: 155px;
 
+}
+.contacts-bcg {
+background-image: 
+url(../images/blue.svg),
+url(../images/circle.png),
+url(../images/circle-black.png);
+background-size: cover;
+  width: 406px;
+  margin: 0 auto;
+background-position: left;
+/* width: 406px;*/
+height: 730px;   
+top: 0;
+}
+.left-item {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24.1521px;
+line-height: 29px;
+color: #E5E5E5;
+padding-top: 36px;
+}
 /* <!==========languages==========> */
-
+.languages-bcg {
+  position: absolute;
+  content: "";
+  background-image: url(../images/black.svg);
+   background-repeat: no-repeat;
+  background-size: cover;
+    width: 406px;
+    margin: 0 auto;
+  background-position: left;
+  /* width: 406px;*/
+  height: 730px;  
+  top: 29%;
+  
+}
 /* <!===========skills============> */
-
+.skills-bcg {
+  position: absolute;
+  content: "";
+  background-image: url(../images/blue.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+    width: 406px;
+    margin: 0 auto;
+  background-position: left;
+  /* width: 406px;*/
+  height: 730px;  
+  top: 62%;
+}
 /* <!===========footer============> */
