@@ -58,9 +58,10 @@ outline: 1px solid #FF6C00;
   }
   .link {
     text-decoration: none; 
-     }
+  }
   :link {
       text-decoration: none; 
+      color: #ffffff;
        }
   .list {
     list-style: none;
@@ -88,17 +89,12 @@ padding-top: 100px;
 );
 background-repeat: no-repeat;
 position: relative;
-/* background-size: cover; */
 }
 /* <!===========header============> */
 .right {
-  /* position: absolute;
-  content: ""; */
   background-color: #ffffff;
 }
 .left {
-  /* position: absolute;
-  content: ""; */
   background-color: #ffffff;
 }
 .header {
@@ -242,57 +238,114 @@ color: #000000;
 /* <!===========hobbies===========> */
 
 /* <!==========contacts===========> */
-.photo {
+.circle {
+  width: 330px;
+  height: auto;
+  background-repeat: no-repeat;
   position: absolute;
-  content: "";
-background-image: url(../images/ilya1.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-  width: 406px;
-  margin: 0 auto;
+  margin-top: 23px;
+  margin-left: 33px;
+  top: 0;
+}
+.photo {
+  display: block;
+border-radius: 50px;
+  width: 320px;
+  height: auto;
+  margin-top: 22px;
+  margin-left: 37px;
 background-position: left;
-/* width: 406px;*/
-height: 500px;   
-top: 0;
 border-radius: 50%;
 }
 .left {
   position: relative;
 }
-.left-title {
+.left__title {
+  position: relative;
   font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 27.6239px;
-line-height: 33px;
-color: #FF6C00;
-padding-top: 155px;
-
+font-size: 28px;
+line-height: 1.18;
+color: #FFFFFF;
+margin-top: 230px;
+margin-left: 50px;
+margin-right: 160px;
+text-transform: uppercase;
+border: 3px solid #ffffff;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 5px;
+}
+.left__title::before {
+border: 3px solid #ffffff;
+  position: absolute;
+  width: 90px;
+  content: "";
+  top: 17px;
+  left: 100%;
+}
+.left__title--item::before {
+  border: 3px solid #ffffff;
+    position: absolute;
+    width: 90px;
+    content: "";
+    top: 17px;
+    left: 100%;
+  }
+.contact__icon {
+  position: absolute;
+  /* width: 90px; */
+  content: "";
+  top: 17px;
+  left: auto;
+ fill: #FF6C00;
+ stroke: #FF6C00;
+  }
+  .star {
+    position: relative;
+  }
+.left__title--item {
+  position: relative;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 1.18;
+color: #FFFFFF;
+margin-top: 270px;
+margin-left: 50px;
+margin-right: 150px;
+text-transform: uppercase;
+border: 3px solid #ffffff;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 5px;
 }
 .contacts-bcg {
 background-image: 
-url(../images/blue.svg),
-url(../images/circle.png),
-url(../images/circle-black.png);
+url(../images/blue.svg);
 background-size: cover;
-  width: 406px;
   margin: 0 auto;
 background-position: left;
-/* width: 406px;*/
+width: 406px;
 height: 730px;   
-top: 0;
+top: 20%;
+left: -3px;
+position: absolute;
 }
-.left-item {
+.left--item {
   font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 24.1521px;
-line-height: 29px;
+font-size: 24px;
+line-height: 1.2;
 color: #E5E5E5;
-padding-top: 36px;
+padding-top: 33px;
+margin-left: 50px;
 }
 /* <!==========languages==========> */
-.languages-bcg {
+.languages__bcg {
   position: absolute;
   content: "";
   background-image: url(../images/black.svg);
@@ -301,10 +354,9 @@ padding-top: 36px;
     width: 406px;
     margin: 0 auto;
   background-position: left;
-  /* width: 406px;*/
-  height: 730px;  
-  top: 29%;
-  
+  height: 735px;  
+  top: 49%;
+  left: -3px;
 }
 /* <!===========skills============> */
 .skills-bcg {
@@ -318,6 +370,7 @@ padding-top: 36px;
   background-position: left;
   /* width: 406px;*/
   height: 730px;  
-  top: 62%;
+  top: 81%;
+  left: -3px;
 }
 /* <!===========footer============> */
